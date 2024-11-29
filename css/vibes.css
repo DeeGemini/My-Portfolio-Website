@@ -61,4 +61,40 @@ section#projects h2 {
 }
 
 /* Blog Section */
+secton#blog {
+    margin: 20px 0;
+}
+
+secton#blog h2 {
+    color: #ff007f;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.blog-card {
+    background: #333; /* Dark Grey */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
 /* Footer Section */
+footer {
+    background: #2c2c34; /* Slightly lighter dark grey */
+    color: #f0f0f0; /* Light grey text */
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #ff007f; /* Neon Pink text */
+    margin: 0 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f0f0f0; /* Light grey text on hover */
+}
