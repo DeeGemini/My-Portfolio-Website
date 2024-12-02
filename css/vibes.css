@@ -15,12 +15,18 @@
     --mob-color: #444444;
 }
 
+.container {
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 header {
-    background-color: var(--bg-color);
+    background: var(--bg-color);
     height: 90px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 nav {
