@@ -103,3 +103,21 @@ nav .hamburger.active::after {
 nav .hamburger.active .bar {
     opacity: 0;
 }
+
+/* Home Section */
+
+.home {
+    background: var(--bg-color);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    padding: 250px 0 50px;
+}
+
+.home .home-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
