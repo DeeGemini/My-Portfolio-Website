@@ -140,6 +140,24 @@ nav .hamburger.active .bar {
     margin: 10px 0;
 }
 
+.left h4 {
+    font-size: 2.2rem;
+    color: var(--white);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.left p {
+    width: 90%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #c3c3c3;
+    mask-border: url(mask.png) 50px repeat;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
 .home-info .right {
     flex: 1;
 }
