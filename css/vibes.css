@@ -83,5 +83,17 @@ nav .hamburger .bar, nav .hamburger::after, nav .hamburger::before {
     height: 5px;
     background-color: var(--white);
     margin: 6px 0px;
-    transition: 0.4s ease;
+    transition: 0.4s;
+}
+
+nav .hamburger.active::before {
+    transform: rotate(-45deg) translate(-8px, 5px);
+}
+
+nav .hamburger.active::after {
+    transform: rotate(45deg) translate(-8px, -5px);
+}
+
+nav .hamburger.active .bar {
+    opacity: 0;
 }
