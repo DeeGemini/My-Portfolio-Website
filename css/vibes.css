@@ -225,3 +225,31 @@ nav .hamburger.active .bar {
         height: 450px;
     }
 }
+
+@media screen and (max-width: 992px) {
+    header {
+        background: var(--mob-color);
+        position: sticky;
+        top: 0;
+        z-index: 9;
+    }
+    
+    nav .hamburger {
+        display: block;
+    }
+
+    nav ul {
+        position: fixed;
+        top: 90px;
+        left: 100px;
+        width: 100px;
+        height: 100px;
+        background: var(--mob-color);
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 50px;
+        gap: 30px;
+        transition: .5s ease-in;
+    }
+}
